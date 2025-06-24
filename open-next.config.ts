@@ -8,7 +8,7 @@ import doQueue from "@opennextjs/cloudflare/overrides/queue/do-queue";
 const config: OpenNextConfig = {
   default: {
     override: {
-      wrapper: "cloudflare-node",
+      wrapper: "cloudflare",
       converter: "edge",
       incrementalCache: kvIncrementalCache,
       tagCache: d1NextTagCache,
